@@ -1,0 +1,52 @@
+@font-face {
+    font-family: my-Poppins;
+    src: url(/Project-6/font/Poppins-Black.ttf)
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    font-family: "my-Poppins";
+    color: white;
+}
+
+.stop-watch-details {
+    height: 200px;
+    border: 1px solid #ffffff;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.main {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.timer p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.buttons {
+    background-color: #00f880;
+    padding: 12px;
+    color: white;
+    font-family: "Poppins";
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    border: 1px sold white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #4cda95;
+}
